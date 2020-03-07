@@ -1,0 +1,35 @@
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0px;
+    background-color: rgba(61, 104, 201, 0.2);
+}
+header {
+    background-color: rgba(61, 104, 201, 0.3);
+    box-shadow: 0px 0px 4px black;
+}
+#hdiv {
+    max-width: 900px;
+    margin: auto;
+    padding: 1em;
+    font-size: 12pt;
+    font-weight: bold;
+}
+.hlink {
+    color: #2f2f2f;
+    text-decoration: none;
+    margin-right: 4ch;
+}
+.hlink:hover {
+    color: #000;
+}
+.hlink:active {
+    color: #3f3f3f;
+}
+.hlink.current {
+    text-decoration: underline;
+}
+#main {
+    max-width: 900px;
+    margin: auto;
+    padding: 1em;
+}
