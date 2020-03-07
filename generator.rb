@@ -61,7 +61,7 @@ def create_cell(json, b, cell)
     }
   else
     b.td {
-      b.span(class: "dotted", title: json[cell]['title']) {
+      b.span(class: "dotted", title: json[cell]['title'], ontouchstart: "t(event)") {
         b.text json[cell]['text']
       }
     }
@@ -74,8 +74,9 @@ JSON_DATA = File.open("data.json") { |f| JSON.parse f.read }
 builder = Nokogiri::HTML::Builder.new(:encoding => 'UTF-8') do |b|
   b.html(lang: "en") {
     b.head {
-      b.title "MN is Top 10!"
+      b.title "MN is Top 10"
       b.link(href: "/style.css", rel: "stylesheet", type: "text/css")
+      b.script "function t(e) { alert(e.target.title); }"
     }
     b.body {
       b.header {
@@ -125,13 +126,13 @@ builder = Nokogiri::HTML::Builder.new(:encoding => 'UTF-8') do |b|
                     if i > 0
                       b.text ", "
                     end
-                    b.span(class: "dotted", title: "#{States[x[0]]}: #{x[1]}") {
+                    b.span(class: "dotted", title: "#{States[x[0]]}: #{x[1]}", ontouchstart: "t(event)") {
                       b.text x[0]
                     }
                   end
                 }
                 b.td {
-                  b.a(href: ranking['source']['link']) {
+                  b.a(href: ranking['source']['link'], target: "_blank") {
                     b.text ranking['source']['text']
                   }
                 }
