@@ -55,9 +55,23 @@
 				}
 			}
 		],
-		"Infrastructure": [
+		"Production": [
 			{
-				"ranking": "Total renewable energy generation",
+				"ranking": "Total annual value of nonfuel mineral production",
+				"#": "4",
+				"value": "$5.30 billion",
+				"beaten_by": {
+					"NV": "$8.19 billion",
+					"AZ": "$6.97 billion",
+					"TX": "$6.47 billion"
+				},
+				"source": {
+					"text": "USGS, 2019",
+					"link": "https://pubs.usgs.gov/periodicals/mcs2020/mcs2020.pdf"
+				}
+			},
+			{
+				"ranking": "Total annual renewable energy generation",
 				"#": "10",
 				"value": "14,791 GWh",
 				"beaten_by": {
@@ -79,6 +93,68 @@
 		],
 		"Society": [
 			{
+				"ranking": "Highest employment-population ratio",
+				"#": "2",
+				"value": {
+					"text": "68.0%",
+					"title": "Employment percent of civilian noninstitutional population age 16 and older"
+				},
+				"beaten_by": {
+					"IA": "68.5%"
+				},
+				"source": {
+					"text": "BLS, 2019",
+					"link": "https://www.bls.gov/news.release/srgune.t02.htm"
+				}
+			},
+			{
+				"ranking": "Lowest proportion of residents without health insurance",
+				"#": {
+					"text": "2",
+					"title": "Data missing from 5 states (DE, HI, ND, RI, VT)"
+				},
+				"value": "4.4%",
+				"beaten_by": {
+					"MA": "2.8%"
+				},
+				"source": {
+					"text": "American Community Survey, 2017",
+					"link": "https://data.census.gov/cedsci/table?g=0100000US.04000.001&hidePreview=true&tid=ACSST1Y2017.S2702&vintage=2017"
+				}
+			},
+			{
+				"ranking": "Highest high school graduation rate",
+				"#": "3",
+				"value": {
+					"text": "93.4%",
+					"title": "Proportion of residents 25 and older who have graduated high school or higher"
+				},
+				"beaten_by": {
+					"MT": "93.9%",
+					"VT": "93.5%"
+				},
+				"source": {
+					"text": "American Community Survey, 2018",
+					"link": "https://data.census.gov/cedsci/table?g=0100000US.04000.001&hidePreview=true&tid=ACSST1Y2018.S1501&vintage=2018"
+				}
+			},
+			{
+				"ranking": "Lowest incarceration rate",
+				"#": "3",
+				"value": {
+					"text": "290 per 100,000",
+					"title": "290 incarcerated per 100,000 residents of all ages"
+				},
+				"beaten_by": {
+					"MA": "280 per 100,000",
+					"VT": "280 per 100,000"
+				},
+				"source": {
+					"text": "BJS, 2016",
+					"link": "https://www.bjs.gov/index.cfm?ty=pbdetail&iid=6226"
+				}
+			},
+			{
 				"ranking": "Longest life expectancy at birth",
 				"#": "4",
 				"value": "81.0 years",
@@ -88,14 +164,30 @@
 					"NY": "81.3 years"
 				},
 				"source": {
-					"text": "Measure of America, 2018",
+					"text": "Measure of America, 2016",
 					"link": "https://measureofamerica.org/maps/?state^life_expect^all_all^Health^health"
+				}
+			},
+			{
+				"ranking": "Highest Human Development Index",
+				"#": "6",
+				"value": "5.90",
+				"beaten_by": {
+					"MA": "6.36",
+					"CT": "6.31",
+					"NJ": "6.25",
+					"MD": "6.04",
+					"NY": "5.92"
+				},
+				"source": {
+					"text": "Measure of America, 2016",
+					"link": "https://measureofamerica.org/maps/?state^hdi^all_all^HDI^hdi"
 				}
 			}
 		],
 		"Other": [
 			{
-				"ranking": "Most residents with a high opinion of their own state",
+				"ranking": "Highest proportion of residents with a high opinion of their own state",
 				"#": "10",
 				"value": {
 					"text": "61%",
