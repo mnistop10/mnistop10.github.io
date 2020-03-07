@@ -1,0 +1,122 @@
+{
+	"categories": {
+		"Geography and Nature": [
+			{
+				"ranking": "Northernmost point",
+				"#": "2",
+				"value": {
+					"text": "49°23′04″N",
+					"title": "Northwest Angle"
+				},
+				"beaten_by": {
+					"AK": "71°23′20″N"
+				},
+				"source": {
+					"text": "Wikipedia",
+					"link": "https://en.wikipedia.org/wiki/List_of_extreme_points_of_the_United_States"
+				}
+			},
+			{
+				"ranking": "Most lakes",
+				"#": {
+					"text": "2?",
+					"title": "To be verified using USGS's NHD"
+				},
+				"value": "15,291 lakes",
+				"beaten_by":
+				{
+					"AK": "3,000,000?"
+				},
+				"source": {
+					"text": "Jeff Wendland, 2011",
+					"link": "https://wizzley.com/what-state-has-the-most-lakes/"
+				}
+			},
+			{
+				"ranking": "Greatest temperature extreme differential",
+				"#": "9",
+				"value": {
+					"text": "175°F",
+					"title": "-60°F – 115°F"
+				},
+				"beaten_by": {
+					"MT": "187°F",
+					"ND": "181°F",
+					"WY": "181°F",
+					"AK": "180°F",
+					"CA": "179°F",
+					"ID": "178°F",
+					"SD": "178°F",
+					"CO": "176°F"
+				},
+				"source": {
+					"text": "NOAA, 2019",
+					"link": "https://www.ncdc.noaa.gov/extremes/scec/records/all/temp"
+				}
+			}
+		],
+		"Infrastructure": [
+			{
+				"ranking": "Total renewable energy generation",
+				"#": "10",
+				"value": "14,791 GWh",
+				"beaten_by": {
+					"CA": "100,830 GWh",
+					"TX": "91,077 GWh",
+					"WA": "75,549 GWh",
+					"OR": "38,588 GWh",
+					"NY": "36,936 GWh",
+					"OK": "31,077 GWh",
+					"IA": "27,545 GWh",
+					"KS": "21,601 GWh",
+					"NC": "16,548 GWh"
+				},
+				"source": {
+					"text": "EIA, 2019",
+					"link": "https://www.eia.gov/electricity/monthly/"
+				}
+			}
+		],
+		"Society": [
+			{
+				"ranking": "Longest life expectancy at birth",
+				"#": "4",
+				"value": "81.0 years",
+				"beaten_by": {
+					"HI": "82.5 years",
+					"CA": "81.5 years",
+					"NY": "81.3 years"
+				},
+				"source": {
+					"text": "Measure of America, 2018",
+					"link": "https://measureofamerica.org/maps/?state^life_expect^all_all^Health^health"
+				}
+			}
+		],
+		"Other": [
+			{
+				"ranking": "Most residents with a high opinion of their own state",
+				"#": "10",
+				"value": {
+					"text": "61%",
+					"title": "Residents who say their state is \"Best or one of the best possible states to live\""
+				},
+				"beaten_by": {
+					"AK": "77%",
+					"MT": "77%",
+					"UT": "70%",
+					"WY": "69%",
+					"HI": "68%",
+					"TX": "68%",
+					"NH": "67%",
+					"ND": "66%",
+					"CO": "65%"
+				},
+				"source": {
+					"text": "Gallup, 2014",
+					"link": "https://news.gallup.com/poll/168653/montanans-alaskans-say-states-among-top-places-live.aspx"
+				}
+			}
+		]
+	}
+}
